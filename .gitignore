@@ -1,0 +1,27 @@
+# File: .gitignore
+
+# ---------------- Frontend (Vite + React) ----------------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+
+# ---------------- Backend (Python / FastAPI) ----------------
+# Covers all three common venv naming conventions — remove the two you
+# didn't use, or just leave all three, they're harmless if unused.
+backend/venv/
+backend/.venv/
+backend/env/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.env
+backend/*.egg-info/
+backend/.pytest_cache/
+
+# ---------------- Editors / OS ----------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
